@@ -5,4 +5,6 @@ class App < Sinatra::Base
     "I love Bok Choy"
     
   end
+  get '/nutritious' do 
+    "has lots of fiber"
 end
