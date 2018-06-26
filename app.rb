@@ -1,6 +1,7 @@
 require "sinatra"
 
 class App < Sinatra::Base
+ 
   get '/' do 
     "Hello, World!"
     
@@ -13,6 +14,6 @@ class App < Sinatra::Base
     "My hometown is t.Louis"
   end 
   get '/favorite-song' do 
-    "My favorite song is Anything Taylor Swift"
+    "My favorite song is anything Taylor Swift"
   end 
 end
